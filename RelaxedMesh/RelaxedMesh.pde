@@ -19,7 +19,7 @@ Boolean IsBlanketClicked;
 Boolean IsParticleLocked;
 Particle SelectedParticle;
 void setup() {
-  size(800, 800);
+  size(1280, 720);
   smooth();
   physics=new VerletPhysics2D();
   physics.addBehavior(new GravityBehavior(new Vec2D(0, 0.2)));
